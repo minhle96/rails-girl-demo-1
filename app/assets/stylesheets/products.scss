@@ -20,3 +20,13 @@
 .product-id {
   color: #777;
 }
+
+.product-detail .product-detail-info {
+  flex: 0 0 300px;
+}
+
+.product-detail .product-description {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px #ddd solid;
+}

@@ -120,7 +120,7 @@ class ProductsController < ApplicationController
         name: 'Tai nghe Beat Studio M8',
         brand: 'Apple',
         price: 7000000,
-        image: 'https://ngheloa.com/wp-content/uploads/2017/12/headphone-beat-studio-ms-81118-chinh-hang-ngheloa.com-1.jpg'
+        image: 'https://www.slickwraps.com/media/catalog/product/cache/1/image/580x580/9df78eab33525d08d6e5fb8d27136e95/b/e/beats-studio-3_camo-2_1.jpg'
       },
       {
         name: 'Máy tính bảng iPad Pro 11 inch Wifi 64GB',
@@ -274,7 +274,7 @@ Product.create!(
   name: 'Tai nghe Beat Studio M8',
   brand: 'Apple',
   price: 7000000,
-  image: 'https://ngheloa.com/wp-content/uploads/2017/12/headphone-beat-studio-ms-81118-chinh-hang-ngheloa.com-1.jpg'
+  image: 'https://www.slickwraps.com/media/catalog/product/cache/1/image/580x580/9df78eab33525d08d6e5fb8d27136e95/b/e/beats-studio-3_camo-2_1.jpg'
 )
 Product.create!(
   name: 'Máy tính bảng iPad Pro 11 inch Wifi 64GB',

@@ -20,32 +20,14 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="<%= root_path %>">Products</a>
+          </li>
         </ul>
       </div>
     </nav>
     <main class="pt-3 container">
       <%= yield %>
     </main>
-
-    <% if notice || alert %>
-      <div class="fixed-bottom container mb-3">
-        <% if notice %>
-          <div class="card bg-success">
-            <div class="card-body">
-              <%= notice %>
-            </div>
-          </div>
-        <% end %>
-
-        <% if alert %>
-          <div class="card bg-danger">
-            <div class="card-body">
-              <%= alert %>
-            </div>
-          </div>
-        <% end %>
-      </div>
-    <% end %>
-
   </body>
 </html>

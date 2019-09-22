@@ -3,7 +3,8 @@ Product.create(
   name: 'Điện thoại iPhone XS Max 512GB',
   brand: 'Apple',
   price: 29000000,
-  image: 'https://cdn.fptshop.com.vn/Uploads/Originals/2018/10/11/636748771945393060_iPhone-Xs-Max-gold.png'
+  image: 'https://cdn.fptshop.com.vn/Uploads/Originals/2018/10/11/636748771945393060_iPhone-Xs-Max-gold.png',
+  description: 'Iphone XS max'
 )
 Product.create!(
   name: 'Tai nghe Bluetooth Airpod 2',

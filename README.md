@@ -598,7 +598,7 @@ end
     </thead>
     <tbody>
       <% @products.each do |product| %>
-        <%= render 'product_', product: product %>
+        <%= render 'product_row', product: product %>
       <% end %>
     </tbody>
   </table>
